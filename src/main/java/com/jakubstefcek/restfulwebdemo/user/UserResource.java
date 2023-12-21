@@ -54,8 +54,8 @@ public class UserResource {
 	}
 	
 	// DELETE methoda 
-		@DeleteMapping("/users/{id}")
-		public void deleteUser(@PathVariable int id){
-			service.deleteByID(id);
-		}
+	@DeleteMapping("/users/{id}")
+	public void deleteUser(@PathVariable int id){
+		service.deleteByID(id);
+	}
 }
